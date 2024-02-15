@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { FaGithub, FaInstagram, FaYoutube} from 'react-icons/fa'
 import './App.css'
 import data_ from '../public/data.json'
 
@@ -74,6 +75,7 @@ function App() {
             </>
         }
       </div>
+      <FaGithub onClick={()=> window.open("https://github.com/DerekZZhu", "_blank")}/>
     </div>
   )
 }
